@@ -13,8 +13,9 @@ def count_up(start, stop):
     """
 
     # YOUR CODE HERE
-    for num in range(stop - start + 1):
-        print(num + start)
+    while start <= stop:
+        print(start)
+        start += 1
 
 
 count_up(5, 7)
